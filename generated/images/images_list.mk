@@ -1,0 +1,1 @@
+GEN_CSRCS += _heart_scarlet_alpha_40x37.c

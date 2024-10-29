@@ -1,0 +1,10 @@
+/Debug/
+*.png
+lvgl-simulator/
+import/
+lib/
+ports/
+sdk/iar
+sdk/mdk
+**/.settings/
+*.launch

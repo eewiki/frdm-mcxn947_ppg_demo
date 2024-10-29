@@ -1,0 +1,2104 @@
+{
+	"projectName": "frdmmcxn947_ppg_demo",
+	"version": "1.8.0-GA",
+	"lvglVersion": "v8",
+	"projectSettings": {
+		"board_radius": 0,
+		"keyBoard": {
+			"display_kb": false,
+			"chinese_input": false,
+			"chinese_library": "mini",
+			"keyboard_font_type": "SourceHanSerifSC_Regular",
+			"keyboard_font_size": 18
+		},
+		"resolution": {
+			"width": "480",
+			"height": "320"
+		},
+		"color_depth": 16,
+		"panel_name": "LCD-PAR-S035",
+		"display_part_number": "LCD-PAR-S035",
+		"OS": "RTOS",
+		"Processor": "MCXN947",
+		"name": "FRDM-MCXN947",
+		"mcuxpresso_config": {
+			"ELF_BINARY_NAME": "lvgl_guider",
+			"CMAKE_BUILD_TYPE": "release"
+		},
+		"Optimizations": "Size",
+		"frameBuffer_region": null,
+		"core": "cortex_m33"
+	},
+	"boardPlatformSettings": {
+		"id": 218,
+		"name": "FRDM-MCXN947",
+		"version": "v1.0.0",
+		"description": "FRDM-MCXN947",
+		"lvgl_version_major": 8,
+		"lvgl_version_minor": 3,
+		"lvgl_version_micro": 10,
+		"author": "NXP",
+		"checksum": "6fe5e52e2c0bfd40927c65ec92ee371b",
+		"images": [
+			"1.8.0/board/FRDM-MCXN947/v8/dev/images/preview.png"
+		],
+		"type": "MCX",
+		"core": "cortex_m33",
+		"disable_widgets": [
+			"video",
+			"lottie"
+		],
+		"disable_toolchains": null,
+		"configuration": {
+			"OS": "RTOS",
+			"Processor": "MCXN947",
+			"color_depth": [
+				16
+			],
+			"export_code": [
+				"RT-Thread",
+				"Zephyr"
+			],
+			"sdk_version": "MCUX SDK 2.16.000",
+			"Optimizations": "Size",
+			"display_panels": [
+				{
+					"width": 480,
+					"height": 320,
+					"display_panel_name": "LCD-PAR-S035",
+					"display_part_number": "LCD-PAR-S035"
+				},
+				{
+					"width": 320,
+					"height": 480,
+					"display_panel_name": "LCD-PAR-S035",
+					"display_part_number": "LCD-PAR-S035"
+				}
+			],
+			"support_sdCard": false,
+			"mcuxpresso_config": {
+				"ELF_BINARY_NAME": "lvgl_guider",
+				"CMAKE_BUILD_TYPE": "release"
+			},
+			"toolchain_version": "MCUX IDE: 11.10.0 | ARMGCC: 13.2.1 | IAR: 9.60.1 | Keil MDK: 5.39.0"
+		},
+		"lv_conf": {
+			"LV_MEM_ADR": 0,
+			"LV_USE_GPU": 0,
+			"LV_MEM_SIZE": 64,
+			"LV_MEM_CUSTOM": 0,
+			"LV_COLOR_DEPTH": 16,
+			"LV_HOR_RES_MAX": "(480)",
+			"LV_VER_RES_MAX": "(320)",
+			"LV_FS_RAWFS_XIP": 0,
+			"LV_COLOR_16_SWAP": 0,
+			"LV_MEM_AUTO_DEFRAG": 1,
+			"LV_MEM_CUSTOM_FREE": "vPortFree",
+			"LV_USE_GPU_NXP_PXP": "~~",
+			"LV_USE_MEM_MONITOR": 0,
+			"LV_MEM_CUSTOM_ALLOC": "pvPortMalloc",
+			"LV_USE_PERF_MONITOR": 0,
+			"LV_MEM_CUSTOM_INCLUDE": "FreeRTOS.h",
+			"LV_ATTRIBUTE_MEM_ALIGN": "~~",
+			"LV_USE_GPU_NXP_VG_LITE": "~~",
+			"LV_DISP_DEF_REFR_PERIOD": 30,
+			"LV_FS_RAWFS_XIP_BASE_ADDR": "",
+			"LV_ATTRIBUTE_MEM_ALIGN_SIZE": "~~",
+			"LV_USE_GPU_NXP_PXP_AUTO_INIT": "~~"
+		},
+		"old_name": null,
+		"origin_type": null,
+		"uid": "FRDM-MCXN947_v1.0.0_v8",
+		"status": "normal"
+	},
+	"demoTemplateSettings": {
+		"id": 146,
+		"name": "EmptyUI",
+		"version": "v1.0.0",
+		"description": "An empty UI template",
+		"lvgl_version_major": 8,
+		"lvgl_version_minor": 3,
+		"lvgl_version_micro": 10,
+		"author": "NXP",
+		"checksum": "bee477df096ef62be9464a049fd25b17",
+		"images": [
+			"1.8.0/application/EmptyUI/v8/dev/images/simulator.png"
+		],
+		"support_board": [
+			"Simulator",
+			"MIMXRT1050-EVKB",
+			"MIMXRT1040-EVK",
+			"MIMXRT1060-EVK",
+			"MIMXRT1064-EVK",
+			"LPCXpresso54S018",
+			"LPCXpresso54S018M",
+			"LPCXpresso54628",
+			"LPCXpresso55S69",
+			"LPCXpresso55S28",
+			"LPCXpresso55S16",
+			"LPCXpresso55S06",
+			"MCX-N5XX-EVK",
+			"FRDM-MCXN947",
+			"FRDM-MCXN236",
+			"MIMXRT595-EVK",
+			"MIMXRT1160-EVK",
+			"MIMXRT1170-EVK",
+			"MIMXRT1170-EVKB",
+			"MIMXRT1010-EVK",
+			"MIMXRT1020-EVK",
+			"MIMXRT1024-EVK",
+			"MIMXRT1015-EVK",
+			"MIMXRT1060-EVKB",
+			"MIMXRT1060-EVKC",
+			"MIMXRT1060-EVKC-VIT",
+			"RD-RW612-BGA",
+			"MCIMX91EVK",
+			"MCIMX93EVK",
+			"KW45B41Z-EVK"
+		],
+		"origin_type": "builtIn",
+		"uid": "EmptyUI_v1.0.0_v8",
+		"status": "normal",
+		"type": "EmptyUI",
+		"alt_files": {}
+	},
+	"lvConf": {
+		"LV_MEM_ADR": false,
+		"LV_USE_GPU": false,
+		"LV_MEM_SIZE": 64,
+		"LV_MEM_CUSTOM": false,
+		"LV_COLOR_DEPTH": 16,
+		"LV_HOR_RES_MAX": "(480)",
+		"LV_VER_RES_MAX": "(320)",
+		"LV_FS_RAWFS_XIP": false,
+		"LV_COLOR_16_SWAP": false,
+		"LV_MEM_AUTO_DEFRAG": true,
+		"LV_MEM_CUSTOM_FREE": "vPortFree",
+		"LV_USE_GPU_NXP_PXP": "~~",
+		"LV_USE_MEM_MONITOR": false,
+		"LV_MEM_CUSTOM_ALLOC": "pvPortMalloc",
+		"LV_USE_PERF_MONITOR": false,
+		"LV_MEM_CUSTOM_INCLUDE": "FreeRTOS.h",
+		"LV_ATTRIBUTE_MEM_ALIGN": "~~",
+		"LV_USE_GPU_NXP_VG_LITE": "~~",
+		"LV_DISP_DEF_REFR_PERIOD": 30,
+		"LV_FS_RAWFS_XIP_BASE_ADDR": "",
+		"LV_ATTRIBUTE_MEM_ALIGN_SIZE": "~~",
+		"LV_USE_GPU_NXP_PXP_AUTO_INIT": "~~"
+	},
+	"ImportFonts": {
+		"SourceHanSerifSC_Regular": "font\\SourceHanSerifSC-Regular.otf",
+		"montserratMedium": "font\\Montserrat-medium.ttf",
+		"arial": "font\\ARIAL.TTF",
+		"Abel_regular": "font\\abel-regular.ttf",
+		"Acme_Regular": "font\\Acme-Regular.ttf",
+		"Adventpro_regular": "font\\adventpro-regular.ttf",
+		"AguafinaScript_Regular": "font\\AguafinaScript-Regular.ttf",
+		"Alatsi_Regular": "font\\Alatsi-Regular.ttf",
+		"AlexBrush_Regular": "font\\AlexBrush-Regular.ttf",
+		"AmaticSC_Regular": "font\\AmaticSC-Regular.ttf",
+		"Amiko_Regular": "font\\Amiko-Regular.ttf",
+		"Antonio_Regular": "font\\Antonio-Regular.ttf",
+		"ArchitectsDaughter": "font\\ArchitectsDaughter.ttf"
+	},
+	"FrontJson": [
+		{
+			"name": "screen",
+			"id": "emg7n4dm",
+			"type": "scr",
+			"version": 180,
+			"scrollbar_mode": "OFF",
+			"customer_code": {
+				"code_c": "",
+				"inc_c": "",
+				"code_py": "",
+				"inc_py": ""
+			},
+			"width": 480,
+			"height": 320,
+			"visible": true,
+			"flag": [],
+			"list": [
+				{
+					"name": "img_1",
+					"id": "jib7ssfl",
+					"type": "img",
+					"left": 418,
+					"top": 22,
+					"visible": true,
+					"isLock": false,
+					"flag": [],
+					"width": 40,
+					"height": 37,
+					"default_style": false,
+					"use_fs": false,
+					"fs_type": "flash",
+					"sd_path": "",
+					"img_path": "C:\\Users\\Matt\\Documents\\NXP\\MCUXpressoIDE\\workspace_11.9.1_2170\\frdmmcxn947_ppg_demo\\import\\image\\heart_scarlet.png",
+					"rotate": 0,
+					"x": 20,
+					"y": 16,
+					"color_format": "true-color-alpha",
+					"style": [
+						{
+							"part": "LV_PART_MAIN",
+							"state": "LV_STATE_DEFAULT",
+							"disable": false,
+							"image_recolor": "#ffffff",
+							"image_recolor_opa": 0,
+							"image_opa": 255,
+							"radius": 0
+						}
+					]
+				},
+				{
+					"name": "label_2",
+					"id": "rrmz0kbs",
+					"type": "label",
+					"left": 226,
+					"top": 25,
+					"visible": true,
+					"isLock": false,
+					"flag": [],
+					"width": 152,
+					"height": 32,
+					"default_style": false,
+					"text": "60 BPM",
+					"long_mode": "LV_LABEL_LONG_WRAP",
+					"custom_attribute": [],
+					"attribute_type": "",
+					"style": [
+						{
+							"part": "LV_PART_MAIN",
+							"state": "LV_STATE_DEFAULT",
+							"disable": false,
+							"border_side": [
+								"LV_BORDER_SIDE_FULL"
+							],
+							"border_width": 0,
+							"border_opa": 255,
+							"border_color": "#2195f6",
+							"radius": 0,
+							"text_color": "#ff2100",
+							"text_opa": 255,
+							"font": 32,
+							"text_align": "LV_TEXT_ALIGN_LEFT",
+							"font_family": "montserratMedium",
+							"letter_space": 2,
+							"line_space": 0,
+							"bg_color": "#2195f6",
+							"bg_grad_color": "#2195f6",
+							"bg_opa": 0,
+							"bg_grad_dir": "LV_GRAD_DIR_NONE",
+							"bg_dither_mode": "LV_DITHER_NONE",
+							"bg_main_stop": 0,
+							"bg_grad_stop": 255,
+							"padding_top": 0,
+							"padding_right": 0,
+							"padding_bottom": 0,
+							"padding_left": 0,
+							"bg_img_src": "",
+							"bg_img_opa": 255,
+							"bg_img_recolor": "#ffffff",
+							"bg_img_recolor_opa": 0,
+							"shadow_color": "#2195f6",
+							"shadow_opa": 255,
+							"shadow_width": 0,
+							"shadow_spread": 0,
+							"shadow_ofs_x": 0,
+							"shadow_ofs_y": 0
+						},
+						{
+							"part": "LV_PART_MAIN",
+							"state": "LV_STATE_DISABLED",
+							"disable": true,
+							"border_side": [
+								"LV_BORDER_SIDE_FULL"
+							],
+							"border_width": 0,
+							"border_opa": 255,
+							"border_color": "#2195f6",
+							"radius": 0,
+							"text_color": "#000000",
+							"text_opa": 255,
+							"font": 16,
+							"font_family": "montserratMedium",
+							"text_align": "LV_TEXT_ALIGN_CENTER",
+							"letter_space": 2,
+							"line_space": 0,
+							"bg_color": "#2195f6",
+							"bg_grad_color": "#2195f6",
+							"bg_opa": 0,
+							"bg_grad_dir": "LV_GRAD_DIR_NONE",
+							"bg_dither_mode": "LV_DITHER_NONE",
+							"bg_main_stop": 0,
+							"bg_grad_stop": 255,
+							"padding_top": 0,
+							"padding_right": 0,
+							"padding_bottom": 0,
+							"padding_left": 0,
+							"bg_img_src": "",
+							"bg_img_opa": 255,
+							"bg_img_recolor": "#ffffff",
+							"bg_img_recolor_opa": 0,
+							"shadow_color": "#2195f6",
+							"shadow_opa": 255,
+							"shadow_width": 0,
+							"shadow_spread": 0,
+							"shadow_ofs_x": 0,
+							"shadow_ofs_y": 0
+						}
+					]
+				},
+				{
+					"name": "label_1",
+					"id": "8mg55el5",
+					"type": "label",
+					"left": 30,
+					"top": 25,
+					"visible": true,
+					"isLock": false,
+					"flag": [],
+					"width": 182,
+					"height": 30,
+					"default_style": false,
+					"text": "Heart Rate:",
+					"long_mode": "LV_LABEL_LONG_WRAP",
+					"custom_attribute": [],
+					"attribute_type": "",
+					"style": [
+						{
+							"part": "LV_PART_MAIN",
+							"state": "LV_STATE_DEFAULT",
+							"disable": false,
+							"border_side": [
+								"LV_BORDER_SIDE_FULL"
+							],
+							"border_width": 0,
+							"border_opa": 255,
+							"border_color": "#2195f6",
+							"radius": 0,
+							"text_color": "#ffffff",
+							"text_opa": 255,
+							"font": 28,
+							"text_align": "LV_TEXT_ALIGN_CENTER",
+							"font_family": "montserratMedium",
+							"letter_space": 2,
+							"line_space": 0,
+							"bg_color": "#2195f6",
+							"bg_grad_color": "#2195f6",
+							"bg_opa": 0,
+							"bg_grad_dir": "LV_GRAD_DIR_NONE",
+							"bg_dither_mode": "LV_DITHER_NONE",
+							"bg_main_stop": 0,
+							"bg_grad_stop": 255,
+							"padding_top": 0,
+							"padding_right": 0,
+							"padding_bottom": 0,
+							"padding_left": 0,
+							"bg_img_src": "",
+							"bg_img_opa": 255,
+							"bg_img_recolor": "#ffffff",
+							"bg_img_recolor_opa": 0,
+							"shadow_color": "#2195f6",
+							"shadow_opa": 255,
+							"shadow_width": 0,
+							"shadow_spread": 0,
+							"shadow_ofs_x": 0,
+							"shadow_ofs_y": 0
+						},
+						{
+							"part": "LV_PART_MAIN",
+							"state": "LV_STATE_DISABLED",
+							"disable": true,
+							"border_side": [
+								"LV_BORDER_SIDE_FULL"
+							],
+							"border_width": 0,
+							"border_opa": 255,
+							"border_color": "#2195f6",
+							"radius": 0,
+							"text_color": "#000000",
+							"text_opa": 255,
+							"font": 16,
+							"font_family": "montserratMedium",
+							"text_align": "LV_TEXT_ALIGN_CENTER",
+							"letter_space": 2,
+							"line_space": 0,
+							"bg_color": "#2195f6",
+							"bg_grad_color": "#2195f6",
+							"bg_opa": 0,
+							"bg_grad_dir": "LV_GRAD_DIR_NONE",
+							"bg_dither_mode": "LV_DITHER_NONE",
+							"bg_main_stop": 0,
+							"bg_grad_stop": 255,
+							"padding_top": 0,
+							"padding_right": 0,
+							"padding_bottom": 0,
+							"padding_left": 0,
+							"bg_img_src": "",
+							"bg_img_opa": 255,
+							"bg_img_recolor": "#ffffff",
+							"bg_img_recolor_opa": 0,
+							"shadow_color": "#2195f6",
+							"shadow_opa": 255,
+							"shadow_width": 0,
+							"shadow_spread": 0,
+							"shadow_ofs_x": 0,
+							"shadow_ofs_y": 0
+						}
+					]
+				},
+				{
+					"name": "bar_1",
+					"id": "et8tejis",
+					"type": "bar",
+					"left": 0,
+					"top": 0,
+					"visible": true,
+					"isLock": false,
+					"flag": [],
+					"width": 480,
+					"height": 10,
+					"default_style": false,
+					"animtime": 100,
+					"bar_value": 0,
+					"bar_start_value": 30,
+					"range_s": 0,
+					"range_e": 49,
+					"anim": false,
+					"mode": "LV_BAR_MODE_NORMAL",
+					"attribute_type": "freemaster",
+					"custom_attribute": [],
+					"style": [
+						{
+							"part": "LV_PART_MAIN",
+							"state": "LV_STATE_DEFAULT",
+							"disable": false,
+							"bg_color": "#2195f6",
+							"bg_grad_color": "#2195f6",
+							"bg_grad_dir": "LV_GRAD_DIR_NONE",
+							"bg_dither_mode": "LV_DITHER_NONE",
+							"bg_main_stop": 0,
+							"bg_grad_stop": 255,
+							"bg_opa": 0,
+							"radius": 0,
+							"shadow_color": "#2195f6",
+							"shadow_opa": 255,
+							"shadow_width": 0,
+							"shadow_spread": 0,
+							"shadow_ofs_x": 0,
+							"shadow_ofs_y": 0,
+							"bg_img_src": "",
+							"bg_img_opa": 255,
+							"bg_img_recolor": "#ffffff",
+							"bg_img_recolor_opa": 0
+						},
+						{
+							"part": "LV_PART_INDICATOR",
+							"state": "LV_STATE_DEFAULT",
+							"disable": false,
+							"bg_color": "#ff2100",
+							"bg_grad_color": "#2195f6",
+							"bg_grad_dir": "LV_GRAD_DIR_NONE",
+							"bg_dither_mode": "LV_DITHER_NONE",
+							"bg_main_stop": 0,
+							"bg_grad_stop": 255,
+							"bg_opa": 255,
+							"radius": 0,
+							"bg_img_src": "",
+							"bg_img_opa": 255,
+							"bg_img_recolor": "#ffffff",
+							"bg_img_recolor_opa": 0
+						}
+					],
+					"event": {
+						"widget": {}
+					}
+				},
+				{
+					"name": "chart_4",
+					"id": "n0ywhcsk",
+					"type": "chart",
+					"left": 0,
+					"top": 260,
+					"visible": true,
+					"isLock": false,
+					"flag": [],
+					"width": 480,
+					"height": 60,
+					"default_style": false,
+					"scrollbar_mode": "OFF",
+					"row": 1,
+					"col": 1,
+					"zoom_x": 256,
+					"zoom_y": 256,
+					"point_count": 5,
+					"chart_type": "LV_CHART_TYPE_LINE",
+					"hide_point": true,
+					"attribute_type": "freemaster",
+					"custom_attribute": [],
+					"axis_tick": [
+						{
+							"axis_name": "LV_CHART_AXIS_PRIMARY_Y",
+							"tick_en": false,
+							"major_len": 10,
+							"minor_len": 5,
+							"major_cnt": 5,
+							"minor_cnt": 4,
+							"label_en": false,
+							"draw_size": 40,
+							"min": -128,
+							"max": 127
+						},
+						{
+							"axis_name": "LV_CHART_AXIS_SECONDARY_Y",
+							"tick_en": false,
+							"major_len": 10,
+							"minor_len": 5,
+							"major_cnt": 5,
+							"minor_cnt": 4,
+							"label_en": false,
+							"draw_size": 40,
+							"min": 0,
+							"max": 100
+						},
+						{
+							"axis_name": "LV_CHART_AXIS_PRIMARY_X",
+							"tick_en": false,
+							"major_len": 9,
+							"minor_len": 5,
+							"major_cnt": 8,
+							"minor_cnt": 4,
+							"label_en": true,
+							"draw_size": 40
+						},
+						{
+							"axis_name": "LV_CHART_AXIS_SECONDARY_X",
+							"tick_en": false,
+							"major_len": 10,
+							"minor_len": 5,
+							"major_cnt": 5,
+							"minor_cnt": 4,
+							"label_en": false,
+							"draw_size": 40
+						}
+					],
+					"chart_data": [
+						{
+							"chart_color": "#0000ff",
+							"chart_points": [],
+							"chart_axis": "LV_CHART_AXIS_PRIMARY_Y"
+						}
+					],
+					"style": [
+						{
+							"part": "LV_PART_MAIN",
+							"state": "LV_STATE_DEFAULT",
+							"disable": false,
+							"bg_color": "#000000",
+							"bg_grad_color": "#ffffff",
+							"bg_grad_dir": "LV_GRAD_DIR_NONE",
+							"bg_dither_mode": "LV_DITHER_NONE",
+							"bg_main_stop": 0,
+							"bg_grad_stop": 255,
+							"bg_opa": 255,
+							"border_side": [
+								"LV_BORDER_SIDE_FULL"
+							],
+							"border_width": 0,
+							"border_color": "#e8e8e8",
+							"border_opa": 255,
+							"radius": 0,
+							"line_color": "#a1a1a1",
+							"line_width": 1,
+							"line_opa": 255,
+							"shadow_color": "#2195f6",
+							"shadow_opa": 255,
+							"shadow_width": 0,
+							"shadow_spread": 0,
+							"shadow_ofs_x": 0,
+							"shadow_ofs_y": 0
+						},
+						{
+							"part": "LV_PART_MAIN",
+							"state": "LV_STATE_FOCUSED",
+							"disable": true,
+							"border_side": [
+								"LV_BORDER_SIDE_FULL"
+							],
+							"border_width": 1,
+							"border_color": "#e8e8e8",
+							"border_opa": 255,
+							"bg_color": "#ffffff",
+							"bg_grad_color": "#ffffff",
+							"bg_grad_dir": "LV_GRAD_DIR_NONE",
+							"bg_dither_mode": "LV_DITHER_NONE",
+							"bg_main_stop": 0,
+							"bg_grad_stop": 255,
+							"bg_opa": 255,
+							"radius": 0,
+							"line_color": "#7d8490",
+							"line_width": 2,
+							"line_opa": 255,
+							"shadow_color": "#2195f6",
+							"shadow_opa": 255,
+							"shadow_width": 0,
+							"shadow_spread": 0,
+							"shadow_ofs_x": 0,
+							"shadow_ofs_y": 0
+						},
+						{
+							"part": "LV_PART_TICKS",
+							"state": "LV_STATE_DEFAULT",
+							"disable": false,
+							"text_color": "#ffffff",
+							"font_family": "montserratMedium",
+							"font": 10,
+							"line_color": "#ffffff",
+							"line_width": 2,
+							"line_opa": 255
+						}
+					]
+				},
+				{
+					"name": "chart_3",
+					"id": "wwvt3g19",
+					"type": "chart",
+					"left": 0,
+					"top": 200,
+					"visible": true,
+					"isLock": false,
+					"flag": [],
+					"width": 480,
+					"height": 60,
+					"default_style": false,
+					"scrollbar_mode": "OFF",
+					"row": 1,
+					"col": 1,
+					"zoom_x": 256,
+					"zoom_y": 256,
+					"point_count": 5,
+					"chart_type": "LV_CHART_TYPE_LINE",
+					"hide_point": true,
+					"attribute_type": "freemaster",
+					"custom_attribute": [],
+					"axis_tick": [
+						{
+							"axis_name": "LV_CHART_AXIS_PRIMARY_Y",
+							"tick_en": false,
+							"major_len": 10,
+							"minor_len": 5,
+							"major_cnt": 5,
+							"minor_cnt": 4,
+							"label_en": false,
+							"draw_size": 40,
+							"min": -128,
+							"max": 127
+						},
+						{
+							"axis_name": "LV_CHART_AXIS_SECONDARY_Y",
+							"tick_en": false,
+							"major_len": 10,
+							"minor_len": 5,
+							"major_cnt": 5,
+							"minor_cnt": 4,
+							"label_en": false,
+							"draw_size": 40,
+							"min": 0,
+							"max": 100
+						},
+						{
+							"axis_name": "LV_CHART_AXIS_PRIMARY_X",
+							"tick_en": false,
+							"major_len": 10,
+							"minor_len": 5,
+							"major_cnt": 5,
+							"minor_cnt": 4,
+							"label_en": false,
+							"draw_size": 40
+						},
+						{
+							"axis_name": "LV_CHART_AXIS_SECONDARY_X",
+							"tick_en": false,
+							"major_len": 10,
+							"minor_len": 5,
+							"major_cnt": 5,
+							"minor_cnt": 4,
+							"label_en": false,
+							"draw_size": 40
+						}
+					],
+					"chart_data": [
+						{
+							"chart_color": "#00ff00",
+							"chart_points": [],
+							"chart_axis": "LV_CHART_AXIS_PRIMARY_Y"
+						}
+					],
+					"style": [
+						{
+							"part": "LV_PART_MAIN",
+							"state": "LV_STATE_DEFAULT",
+							"disable": false,
+							"bg_color": "#000000",
+							"bg_grad_color": "#ffffff",
+							"bg_grad_dir": "LV_GRAD_DIR_NONE",
+							"bg_dither_mode": "LV_DITHER_NONE",
+							"bg_main_stop": 0,
+							"bg_grad_stop": 255,
+							"bg_opa": 255,
+							"border_side": [
+								"LV_BORDER_SIDE_FULL"
+							],
+							"border_width": 0,
+							"border_color": "#e8e8e8",
+							"border_opa": 255,
+							"radius": 0,
+							"line_color": "#a1a1a1",
+							"line_width": 1,
+							"line_opa": 255,
+							"shadow_color": "#2195f6",
+							"shadow_opa": 255,
+							"shadow_width": 0,
+							"shadow_spread": 0,
+							"shadow_ofs_x": 0,
+							"shadow_ofs_y": 0
+						},
+						{
+							"part": "LV_PART_MAIN",
+							"state": "LV_STATE_FOCUSED",
+							"disable": true,
+							"border_side": [
+								"LV_BORDER_SIDE_FULL"
+							],
+							"border_width": 1,
+							"border_color": "#e8e8e8",
+							"border_opa": 255,
+							"bg_color": "#ffffff",
+							"bg_grad_color": "#ffffff",
+							"bg_grad_dir": "LV_GRAD_DIR_NONE",
+							"bg_dither_mode": "LV_DITHER_NONE",
+							"bg_main_stop": 0,
+							"bg_grad_stop": 255,
+							"bg_opa": 255,
+							"radius": 0,
+							"line_color": "#7d8490",
+							"line_width": 2,
+							"line_opa": 255,
+							"shadow_color": "#2195f6",
+							"shadow_opa": 255,
+							"shadow_width": 0,
+							"shadow_spread": 0,
+							"shadow_ofs_x": 0,
+							"shadow_ofs_y": 0
+						},
+						{
+							"part": "LV_PART_TICKS",
+							"state": "LV_STATE_DEFAULT",
+							"disable": false,
+							"text_color": "#151212",
+							"font_family": "montserratMedium",
+							"font": 12,
+							"line_color": "#e8e8e8",
+							"line_width": 2,
+							"line_opa": 255
+						}
+					]
+				},
+				{
+					"name": "chart_2",
+					"id": "fyu3daw9",
+					"type": "chart",
+					"left": 0,
+					"top": 140,
+					"visible": true,
+					"isLock": false,
+					"flag": [],
+					"width": 480,
+					"height": 60,
+					"default_style": false,
+					"scrollbar_mode": "OFF",
+					"row": 1,
+					"col": 1,
+					"zoom_x": 256,
+					"zoom_y": 256,
+					"point_count": 5,
+					"chart_type": "LV_CHART_TYPE_LINE",
+					"hide_point": true,
+					"attribute_type": "freemaster",
+					"custom_attribute": [],
+					"axis_tick": [
+						{
+							"axis_name": "LV_CHART_AXIS_PRIMARY_Y",
+							"tick_en": false,
+							"major_len": 10,
+							"minor_len": 5,
+							"major_cnt": 5,
+							"minor_cnt": 4,
+							"label_en": false,
+							"draw_size": 40,
+							"min": -128,
+							"max": 127
+						},
+						{
+							"axis_name": "LV_CHART_AXIS_SECONDARY_Y",
+							"tick_en": false,
+							"major_len": 10,
+							"minor_len": 5,
+							"major_cnt": 5,
+							"minor_cnt": 4,
+							"label_en": false,
+							"draw_size": 40,
+							"min": 0,
+							"max": 100
+						},
+						{
+							"axis_name": "LV_CHART_AXIS_PRIMARY_X",
+							"tick_en": false,
+							"major_len": 10,
+							"minor_len": 5,
+							"major_cnt": 5,
+							"minor_cnt": 4,
+							"label_en": false,
+							"draw_size": 40
+						},
+						{
+							"axis_name": "LV_CHART_AXIS_SECONDARY_X",
+							"tick_en": false,
+							"major_len": 10,
+							"minor_len": 5,
+							"major_cnt": 5,
+							"minor_cnt": 4,
+							"label_en": false,
+							"draw_size": 40
+						}
+					],
+					"chart_data": [
+						{
+							"chart_color": "#f00000",
+							"chart_points": [],
+							"chart_axis": "LV_CHART_AXIS_PRIMARY_Y"
+						}
+					],
+					"style": [
+						{
+							"part": "LV_PART_MAIN",
+							"state": "LV_STATE_DEFAULT",
+							"disable": false,
+							"bg_color": "#000000",
+							"bg_grad_color": "#ffffff",
+							"bg_grad_dir": "LV_GRAD_DIR_NONE",
+							"bg_dither_mode": "LV_DITHER_NONE",
+							"bg_main_stop": 0,
+							"bg_grad_stop": 255,
+							"bg_opa": 255,
+							"border_side": [
+								"LV_BORDER_SIDE_FULL"
+							],
+							"border_width": 0,
+							"border_color": "#e8e8e8",
+							"border_opa": 255,
+							"radius": 0,
+							"line_color": "#a1a1a1",
+							"line_width": 1,
+							"line_opa": 255,
+							"shadow_color": "#2195f6",
+							"shadow_opa": 255,
+							"shadow_width": 0,
+							"shadow_spread": 0,
+							"shadow_ofs_x": 0,
+							"shadow_ofs_y": 0
+						},
+						{
+							"part": "LV_PART_MAIN",
+							"state": "LV_STATE_FOCUSED",
+							"disable": true,
+							"border_side": [
+								"LV_BORDER_SIDE_FULL"
+							],
+							"border_width": 1,
+							"border_color": "#e8e8e8",
+							"border_opa": 255,
+							"bg_color": "#ffffff",
+							"bg_grad_color": "#ffffff",
+							"bg_grad_dir": "LV_GRAD_DIR_NONE",
+							"bg_dither_mode": "LV_DITHER_NONE",
+							"bg_main_stop": 0,
+							"bg_grad_stop": 255,
+							"bg_opa": 255,
+							"radius": 0,
+							"line_color": "#7d8490",
+							"line_width": 2,
+							"line_opa": 255,
+							"shadow_color": "#2195f6",
+							"shadow_opa": 255,
+							"shadow_width": 0,
+							"shadow_spread": 0,
+							"shadow_ofs_x": 0,
+							"shadow_ofs_y": 0
+						},
+						{
+							"part": "LV_PART_TICKS",
+							"state": "LV_STATE_DEFAULT",
+							"disable": false,
+							"text_color": "#151212",
+							"font_family": "montserratMedium",
+							"font": 12,
+							"line_color": "#e8e8e8",
+							"line_width": 2,
+							"line_opa": 255
+						}
+					]
+				},
+				{
+					"name": "chart_1",
+					"id": "z9utgztp",
+					"type": "chart",
+					"left": 0,
+					"top": 80,
+					"visible": true,
+					"isLock": false,
+					"flag": [],
+					"width": 480,
+					"height": 60,
+					"default_style": false,
+					"scrollbar_mode": "OFF",
+					"row": 1,
+					"col": 1,
+					"zoom_x": 256,
+					"zoom_y": 256,
+					"point_count": 5,
+					"chart_type": "LV_CHART_TYPE_LINE",
+					"hide_point": true,
+					"attribute_type": "freemaster",
+					"custom_attribute": [
+						""
+					],
+					"axis_tick": [
+						{
+							"axis_name": "LV_CHART_AXIS_PRIMARY_Y",
+							"tick_en": false,
+							"major_len": 10,
+							"minor_len": 5,
+							"major_cnt": 5,
+							"minor_cnt": 4,
+							"label_en": false,
+							"draw_size": 40,
+							"min": -128,
+							"max": 127
+						},
+						{
+							"axis_name": "LV_CHART_AXIS_SECONDARY_Y",
+							"tick_en": false,
+							"major_len": 10,
+							"minor_len": 5,
+							"major_cnt": 5,
+							"minor_cnt": 4,
+							"label_en": false,
+							"draw_size": 40,
+							"min": 0,
+							"max": 100
+						},
+						{
+							"axis_name": "LV_CHART_AXIS_PRIMARY_X",
+							"tick_en": false,
+							"major_len": 10,
+							"minor_len": 5,
+							"major_cnt": 5,
+							"minor_cnt": 4,
+							"label_en": false,
+							"draw_size": 40
+						},
+						{
+							"axis_name": "LV_CHART_AXIS_SECONDARY_X",
+							"tick_en": false,
+							"major_len": 10,
+							"minor_len": 5,
+							"major_cnt": 5,
+							"minor_cnt": 4,
+							"label_en": false,
+							"draw_size": 40
+						}
+					],
+					"chart_data": [
+						{
+							"chart_color": "#ffffff",
+							"chart_points": [],
+							"chart_axis": "LV_CHART_AXIS_PRIMARY_Y"
+						}
+					],
+					"style": [
+						{
+							"part": "LV_PART_MAIN",
+							"state": "LV_STATE_DEFAULT",
+							"disable": false,
+							"bg_color": "#000000",
+							"bg_grad_color": "#ffffff",
+							"bg_grad_dir": "LV_GRAD_DIR_NONE",
+							"bg_dither_mode": "LV_DITHER_NONE",
+							"bg_main_stop": 0,
+							"bg_grad_stop": 255,
+							"bg_opa": 255,
+							"border_side": [
+								"LV_BORDER_SIDE_FULL"
+							],
+							"border_width": 0,
+							"border_color": "#e8e8e8",
+							"border_opa": 255,
+							"radius": 0,
+							"line_color": "#a1a1a1",
+							"line_width": 1,
+							"line_opa": 255,
+							"shadow_color": "#2195f6",
+							"shadow_opa": 255,
+							"shadow_width": 0,
+							"shadow_spread": 0,
+							"shadow_ofs_x": 0,
+							"shadow_ofs_y": 0
+						},
+						{
+							"part": "LV_PART_MAIN",
+							"state": "LV_STATE_FOCUSED",
+							"disable": true,
+							"border_side": [
+								"LV_BORDER_SIDE_FULL"
+							],
+							"border_width": 1,
+							"border_color": "#e8e8e8",
+							"border_opa": 255,
+							"bg_color": "#ffffff",
+							"bg_grad_color": "#ffffff",
+							"bg_grad_dir": "LV_GRAD_DIR_NONE",
+							"bg_dither_mode": "LV_DITHER_NONE",
+							"bg_main_stop": 0,
+							"bg_grad_stop": 255,
+							"bg_opa": 255,
+							"radius": 0,
+							"line_color": "#7d8490",
+							"line_width": 2,
+							"line_opa": 255,
+							"shadow_color": "#2195f6",
+							"shadow_opa": 255,
+							"shadow_width": 0,
+							"shadow_spread": 0,
+							"shadow_ofs_x": 0,
+							"shadow_ofs_y": 0
+						},
+						{
+							"part": "LV_PART_TICKS",
+							"state": "LV_STATE_DEFAULT",
+							"disable": false,
+							"text_color": "#151212",
+							"font_family": "montserratMedium",
+							"font": 12,
+							"line_color": "#e8e8e8",
+							"line_width": 2,
+							"line_opa": 255
+						}
+					]
+				}
+			],
+			"event": {},
+			"style": [
+				{
+					"part": "LV_PART_MAIN",
+					"state": "LV_STATE_DEFAULT",
+					"disable": false,
+					"bg_color": "#000000",
+					"bg_grad_dir": "LV_GRAD_DIR_NONE",
+					"bg_dither_mode": "LV_DITHER_NONE",
+					"bg_main_stop": 0,
+					"bg_grad_stop": 255,
+					"bg_grad_color": "#2195f6",
+					"bg_opa": 255,
+					"bg_img_src": "",
+					"bg_img_opa": 255,
+					"bg_img_recolor": "#ffffff",
+					"bg_img_recolor_opa": 0
+				}
+			]
+		}
+	],
+	"Application": {
+		"name": "testingJson",
+		"size": {
+			"width": "480",
+			"height": "320"
+		},
+		"freemasterConfig": {
+			"enable": false
+		},
+		"version": "test_v1",
+		"keyBoard": {
+			"display_kb": false,
+			"chinese_input": false,
+			"chinese_library": "mini",
+			"keyboard_font_type": "SourceHanSerifSC_Regular",
+			"keyboard_font_size": 18
+		},
+		"default_scr": "screen",
+		"theme": "LV_THEME_MATERIAL_FLAG_LIGHT",
+		"screen": [
+			{
+				"name": "screen",
+				"id": "emg7n4dm",
+				"type": "scr",
+				"version": 180,
+				"scrollbar_mode": "OFF",
+				"customer_code": {
+					"code_c": "",
+					"inc_c": "",
+					"code_py": "",
+					"inc_py": ""
+				},
+				"width": 480,
+				"height": 320,
+				"visible": true,
+				"flag": [],
+				"event": {},
+				"style": [
+					{
+						"part": "LV_PART_MAIN",
+						"state": "LV_STATE_DEFAULT",
+						"disable": false,
+						"bg_color": "#000000",
+						"bg_grad_dir": "LV_GRAD_DIR_NONE",
+						"bg_dither_mode": "LV_DITHER_NONE",
+						"bg_main_stop": 0,
+						"bg_grad_stop": 255,
+						"bg_grad_color": "#2195f6",
+						"bg_opa": 255,
+						"bg_img_src": "",
+						"bg_img_opa": 255,
+						"bg_img_recolor": "#ffffff",
+						"bg_img_recolor_opa": 0
+					}
+				],
+				"size": [
+					480,
+					320
+				],
+				"widgets": [
+					{
+						"name": "screen_chart_1",
+						"id": "z9utgztp",
+						"type": "chart",
+						"visible": true,
+						"scrollbar_mode": "OFF",
+						"flag": [],
+						"pos": [
+							0,
+							80
+						],
+						"size": [
+							480,
+							60
+						],
+						"default_style": false,
+						"attribute_type": "freemaster",
+						"custom_attribute": [
+							null
+						],
+						"chart_type": "LV_CHART_TYPE_LINE",
+						"div_line_count": [
+							1,
+							1
+						],
+						"chart_data": [
+							{
+								"chart_color": "#ffffff",
+								"chart_points": [],
+								"chart_axis": "LV_CHART_AXIS_PRIMARY_Y"
+							}
+						],
+						"point_count": 0,
+						"hide_point": true,
+						"zoom_x": 256,
+						"zoom_y": 256,
+						"axis_tick": [
+							{
+								"axis_name": "LV_CHART_AXIS_PRIMARY_Y",
+								"tick_en": false,
+								"major_len": 10,
+								"minor_len": 5,
+								"major_cnt": 5,
+								"minor_cnt": 4,
+								"label_en": false,
+								"draw_size": 40,
+								"min": -128,
+								"max": 127
+							},
+							{
+								"axis_name": "LV_CHART_AXIS_SECONDARY_Y",
+								"tick_en": false,
+								"major_len": 10,
+								"minor_len": 5,
+								"major_cnt": 5,
+								"minor_cnt": 4,
+								"label_en": false,
+								"draw_size": 40,
+								"min": 0,
+								"max": 100
+							},
+							{
+								"axis_name": "LV_CHART_AXIS_PRIMARY_X",
+								"tick_en": false,
+								"major_len": 10,
+								"minor_len": 5,
+								"major_cnt": 5,
+								"minor_cnt": 4,
+								"label_en": false,
+								"draw_size": 40
+							},
+							{
+								"axis_name": "LV_CHART_AXIS_SECONDARY_X",
+								"tick_en": false,
+								"major_len": 10,
+								"minor_len": 5,
+								"major_cnt": 5,
+								"minor_cnt": 4,
+								"label_en": false,
+								"draw_size": 40
+							}
+						],
+						"style": [
+							{
+								"part": "LV_PART_MAIN",
+								"state": "LV_STATE_DEFAULT",
+								"disable": false,
+								"bg_color": "#000000",
+								"bg_grad_color": "#ffffff",
+								"bg_grad_dir": "LV_GRAD_DIR_NONE",
+								"bg_dither_mode": "LV_DITHER_NONE",
+								"bg_main_stop": 0,
+								"bg_grad_stop": 255,
+								"bg_opa": 255,
+								"border_side": [
+									"LV_BORDER_SIDE_FULL"
+								],
+								"border_width": 0,
+								"border_color": "#e8e8e8",
+								"border_opa": 255,
+								"radius": 0,
+								"line_color": "#a1a1a1",
+								"line_width": 1,
+								"line_opa": 255,
+								"shadow_color": "#2195f6",
+								"shadow_opa": 255,
+								"shadow_width": 0,
+								"shadow_spread": 0,
+								"shadow_ofs_x": 0,
+								"shadow_ofs_y": 0
+							},
+							{
+								"part": "LV_PART_MAIN",
+								"state": "LV_STATE_FOCUSED",
+								"disable": true,
+								"border_side": [
+									"LV_BORDER_SIDE_FULL"
+								],
+								"border_width": 1,
+								"border_color": "#e8e8e8",
+								"border_opa": 255,
+								"bg_color": "#ffffff",
+								"bg_grad_color": "#ffffff",
+								"bg_grad_dir": "LV_GRAD_DIR_NONE",
+								"bg_dither_mode": "LV_DITHER_NONE",
+								"bg_main_stop": 0,
+								"bg_grad_stop": 255,
+								"bg_opa": 255,
+								"radius": 0,
+								"line_color": "#7d8490",
+								"line_width": 2,
+								"line_opa": 255,
+								"shadow_color": "#2195f6",
+								"shadow_opa": 255,
+								"shadow_width": 0,
+								"shadow_spread": 0,
+								"shadow_ofs_x": 0,
+								"shadow_ofs_y": 0
+							},
+							{
+								"part": "LV_PART_TICKS",
+								"state": "LV_STATE_DEFAULT",
+								"disable": false,
+								"text_color": "#151212",
+								"font_family": "montserratMedium",
+								"font": 12,
+								"line_color": "#e8e8e8",
+								"line_width": 2,
+								"line_opa": 255
+							}
+						]
+					},
+					{
+						"name": "screen_chart_2",
+						"id": "fyu3daw9",
+						"type": "chart",
+						"visible": true,
+						"scrollbar_mode": "OFF",
+						"flag": [],
+						"pos": [
+							0,
+							140
+						],
+						"size": [
+							480,
+							60
+						],
+						"default_style": false,
+						"attribute_type": "freemaster",
+						"custom_attribute": [],
+						"chart_type": "LV_CHART_TYPE_LINE",
+						"div_line_count": [
+							1,
+							1
+						],
+						"chart_data": [
+							{
+								"chart_color": "#f00000",
+								"chart_points": [],
+								"chart_axis": "LV_CHART_AXIS_PRIMARY_Y"
+							}
+						],
+						"point_count": 0,
+						"hide_point": true,
+						"zoom_x": 256,
+						"zoom_y": 256,
+						"axis_tick": [
+							{
+								"axis_name": "LV_CHART_AXIS_PRIMARY_Y",
+								"tick_en": false,
+								"major_len": 10,
+								"minor_len": 5,
+								"major_cnt": 5,
+								"minor_cnt": 4,
+								"label_en": false,
+								"draw_size": 40,
+								"min": -128,
+								"max": 127
+							},
+							{
+								"axis_name": "LV_CHART_AXIS_SECONDARY_Y",
+								"tick_en": false,
+								"major_len": 10,
+								"minor_len": 5,
+								"major_cnt": 5,
+								"minor_cnt": 4,
+								"label_en": false,
+								"draw_size": 40,
+								"min": 0,
+								"max": 100
+							},
+							{
+								"axis_name": "LV_CHART_AXIS_PRIMARY_X",
+								"tick_en": false,
+								"major_len": 10,
+								"minor_len": 5,
+								"major_cnt": 5,
+								"minor_cnt": 4,
+								"label_en": false,
+								"draw_size": 40
+							},
+							{
+								"axis_name": "LV_CHART_AXIS_SECONDARY_X",
+								"tick_en": false,
+								"major_len": 10,
+								"minor_len": 5,
+								"major_cnt": 5,
+								"minor_cnt": 4,
+								"label_en": false,
+								"draw_size": 40
+							}
+						],
+						"style": [
+							{
+								"part": "LV_PART_MAIN",
+								"state": "LV_STATE_DEFAULT",
+								"disable": false,
+								"bg_color": "#000000",
+								"bg_grad_color": "#ffffff",
+								"bg_grad_dir": "LV_GRAD_DIR_NONE",
+								"bg_dither_mode": "LV_DITHER_NONE",
+								"bg_main_stop": 0,
+								"bg_grad_stop": 255,
+								"bg_opa": 255,
+								"border_side": [
+									"LV_BORDER_SIDE_FULL"
+								],
+								"border_width": 0,
+								"border_color": "#e8e8e8",
+								"border_opa": 255,
+								"radius": 0,
+								"line_color": "#a1a1a1",
+								"line_width": 1,
+								"line_opa": 255,
+								"shadow_color": "#2195f6",
+								"shadow_opa": 255,
+								"shadow_width": 0,
+								"shadow_spread": 0,
+								"shadow_ofs_x": 0,
+								"shadow_ofs_y": 0
+							},
+							{
+								"part": "LV_PART_MAIN",
+								"state": "LV_STATE_FOCUSED",
+								"disable": true,
+								"border_side": [
+									"LV_BORDER_SIDE_FULL"
+								],
+								"border_width": 1,
+								"border_color": "#e8e8e8",
+								"border_opa": 255,
+								"bg_color": "#ffffff",
+								"bg_grad_color": "#ffffff",
+								"bg_grad_dir": "LV_GRAD_DIR_NONE",
+								"bg_dither_mode": "LV_DITHER_NONE",
+								"bg_main_stop": 0,
+								"bg_grad_stop": 255,
+								"bg_opa": 255,
+								"radius": 0,
+								"line_color": "#7d8490",
+								"line_width": 2,
+								"line_opa": 255,
+								"shadow_color": "#2195f6",
+								"shadow_opa": 255,
+								"shadow_width": 0,
+								"shadow_spread": 0,
+								"shadow_ofs_x": 0,
+								"shadow_ofs_y": 0
+							},
+							{
+								"part": "LV_PART_TICKS",
+								"state": "LV_STATE_DEFAULT",
+								"disable": false,
+								"text_color": "#151212",
+								"font_family": "montserratMedium",
+								"font": 12,
+								"line_color": "#e8e8e8",
+								"line_width": 2,
+								"line_opa": 255
+							}
+						]
+					},
+					{
+						"name": "screen_chart_3",
+						"id": "wwvt3g19",
+						"type": "chart",
+						"visible": true,
+						"scrollbar_mode": "OFF",
+						"flag": [],
+						"pos": [
+							0,
+							200
+						],
+						"size": [
+							480,
+							60
+						],
+						"default_style": false,
+						"attribute_type": "freemaster",
+						"custom_attribute": [],
+						"chart_type": "LV_CHART_TYPE_LINE",
+						"div_line_count": [
+							1,
+							1
+						],
+						"chart_data": [
+							{
+								"chart_color": "#00ff00",
+								"chart_points": [],
+								"chart_axis": "LV_CHART_AXIS_PRIMARY_Y"
+							}
+						],
+						"point_count": 0,
+						"hide_point": true,
+						"zoom_x": 256,
+						"zoom_y": 256,
+						"axis_tick": [
+							{
+								"axis_name": "LV_CHART_AXIS_PRIMARY_Y",
+								"tick_en": false,
+								"major_len": 10,
+								"minor_len": 5,
+								"major_cnt": 5,
+								"minor_cnt": 4,
+								"label_en": false,
+								"draw_size": 40,
+								"min": -128,
+								"max": 127
+							},
+							{
+								"axis_name": "LV_CHART_AXIS_SECONDARY_Y",
+								"tick_en": false,
+								"major_len": 10,
+								"minor_len": 5,
+								"major_cnt": 5,
+								"minor_cnt": 4,
+								"label_en": false,
+								"draw_size": 40,
+								"min": 0,
+								"max": 100
+							},
+							{
+								"axis_name": "LV_CHART_AXIS_PRIMARY_X",
+								"tick_en": false,
+								"major_len": 10,
+								"minor_len": 5,
+								"major_cnt": 5,
+								"minor_cnt": 4,
+								"label_en": false,
+								"draw_size": 40
+							},
+							{
+								"axis_name": "LV_CHART_AXIS_SECONDARY_X",
+								"tick_en": false,
+								"major_len": 10,
+								"minor_len": 5,
+								"major_cnt": 5,
+								"minor_cnt": 4,
+								"label_en": false,
+								"draw_size": 40
+							}
+						],
+						"style": [
+							{
+								"part": "LV_PART_MAIN",
+								"state": "LV_STATE_DEFAULT",
+								"disable": false,
+								"bg_color": "#000000",
+								"bg_grad_color": "#ffffff",
+								"bg_grad_dir": "LV_GRAD_DIR_NONE",
+								"bg_dither_mode": "LV_DITHER_NONE",
+								"bg_main_stop": 0,
+								"bg_grad_stop": 255,
+								"bg_opa": 255,
+								"border_side": [
+									"LV_BORDER_SIDE_FULL"
+								],
+								"border_width": 0,
+								"border_color": "#e8e8e8",
+								"border_opa": 255,
+								"radius": 0,
+								"line_color": "#a1a1a1",
+								"line_width": 1,
+								"line_opa": 255,
+								"shadow_color": "#2195f6",
+								"shadow_opa": 255,
+								"shadow_width": 0,
+								"shadow_spread": 0,
+								"shadow_ofs_x": 0,
+								"shadow_ofs_y": 0
+							},
+							{
+								"part": "LV_PART_MAIN",
+								"state": "LV_STATE_FOCUSED",
+								"disable": true,
+								"border_side": [
+									"LV_BORDER_SIDE_FULL"
+								],
+								"border_width": 1,
+								"border_color": "#e8e8e8",
+								"border_opa": 255,
+								"bg_color": "#ffffff",
+								"bg_grad_color": "#ffffff",
+								"bg_grad_dir": "LV_GRAD_DIR_NONE",
+								"bg_dither_mode": "LV_DITHER_NONE",
+								"bg_main_stop": 0,
+								"bg_grad_stop": 255,
+								"bg_opa": 255,
+								"radius": 0,
+								"line_color": "#7d8490",
+								"line_width": 2,
+								"line_opa": 255,
+								"shadow_color": "#2195f6",
+								"shadow_opa": 255,
+								"shadow_width": 0,
+								"shadow_spread": 0,
+								"shadow_ofs_x": 0,
+								"shadow_ofs_y": 0
+							},
+							{
+								"part": "LV_PART_TICKS",
+								"state": "LV_STATE_DEFAULT",
+								"disable": false,
+								"text_color": "#151212",
+								"font_family": "montserratMedium",
+								"font": 12,
+								"line_color": "#e8e8e8",
+								"line_width": 2,
+								"line_opa": 255
+							}
+						]
+					},
+					{
+						"name": "screen_chart_4",
+						"id": "n0ywhcsk",
+						"type": "chart",
+						"visible": true,
+						"scrollbar_mode": "OFF",
+						"flag": [],
+						"pos": [
+							0,
+							260
+						],
+						"size": [
+							480,
+							60
+						],
+						"default_style": false,
+						"attribute_type": "freemaster",
+						"custom_attribute": [],
+						"chart_type": "LV_CHART_TYPE_LINE",
+						"div_line_count": [
+							1,
+							1
+						],
+						"chart_data": [
+							{
+								"chart_color": "#0000ff",
+								"chart_points": [],
+								"chart_axis": "LV_CHART_AXIS_PRIMARY_Y"
+							}
+						],
+						"point_count": 0,
+						"hide_point": true,
+						"zoom_x": 256,
+						"zoom_y": 256,
+						"axis_tick": [
+							{
+								"axis_name": "LV_CHART_AXIS_PRIMARY_Y",
+								"tick_en": false,
+								"major_len": 10,
+								"minor_len": 5,
+								"major_cnt": 5,
+								"minor_cnt": 4,
+								"label_en": false,
+								"draw_size": 40,
+								"min": -128,
+								"max": 127
+							},
+							{
+								"axis_name": "LV_CHART_AXIS_SECONDARY_Y",
+								"tick_en": false,
+								"major_len": 10,
+								"minor_len": 5,
+								"major_cnt": 5,
+								"minor_cnt": 4,
+								"label_en": false,
+								"draw_size": 40,
+								"min": 0,
+								"max": 100
+							},
+							{
+								"axis_name": "LV_CHART_AXIS_PRIMARY_X",
+								"tick_en": false,
+								"major_len": 9,
+								"minor_len": 5,
+								"major_cnt": 8,
+								"minor_cnt": 4,
+								"label_en": true,
+								"draw_size": 40
+							},
+							{
+								"axis_name": "LV_CHART_AXIS_SECONDARY_X",
+								"tick_en": false,
+								"major_len": 10,
+								"minor_len": 5,
+								"major_cnt": 5,
+								"minor_cnt": 4,
+								"label_en": false,
+								"draw_size": 40
+							}
+						],
+						"style": [
+							{
+								"part": "LV_PART_MAIN",
+								"state": "LV_STATE_DEFAULT",
+								"disable": false,
+								"bg_color": "#000000",
+								"bg_grad_color": "#ffffff",
+								"bg_grad_dir": "LV_GRAD_DIR_NONE",
+								"bg_dither_mode": "LV_DITHER_NONE",
+								"bg_main_stop": 0,
+								"bg_grad_stop": 255,
+								"bg_opa": 255,
+								"border_side": [
+									"LV_BORDER_SIDE_FULL"
+								],
+								"border_width": 0,
+								"border_color": "#e8e8e8",
+								"border_opa": 255,
+								"radius": 0,
+								"line_color": "#a1a1a1",
+								"line_width": 1,
+								"line_opa": 255,
+								"shadow_color": "#2195f6",
+								"shadow_opa": 255,
+								"shadow_width": 0,
+								"shadow_spread": 0,
+								"shadow_ofs_x": 0,
+								"shadow_ofs_y": 0
+							},
+							{
+								"part": "LV_PART_MAIN",
+								"state": "LV_STATE_FOCUSED",
+								"disable": true,
+								"border_side": [
+									"LV_BORDER_SIDE_FULL"
+								],
+								"border_width": 1,
+								"border_color": "#e8e8e8",
+								"border_opa": 255,
+								"bg_color": "#ffffff",
+								"bg_grad_color": "#ffffff",
+								"bg_grad_dir": "LV_GRAD_DIR_NONE",
+								"bg_dither_mode": "LV_DITHER_NONE",
+								"bg_main_stop": 0,
+								"bg_grad_stop": 255,
+								"bg_opa": 255,
+								"radius": 0,
+								"line_color": "#7d8490",
+								"line_width": 2,
+								"line_opa": 255,
+								"shadow_color": "#2195f6",
+								"shadow_opa": 255,
+								"shadow_width": 0,
+								"shadow_spread": 0,
+								"shadow_ofs_x": 0,
+								"shadow_ofs_y": 0
+							},
+							{
+								"part": "LV_PART_TICKS",
+								"state": "LV_STATE_DEFAULT",
+								"disable": false,
+								"text_color": "#ffffff",
+								"font_family": "montserratMedium",
+								"font": 10,
+								"line_color": "#ffffff",
+								"line_width": 2,
+								"line_opa": 255
+							}
+						]
+					},
+					{
+						"name": "screen_bar_1",
+						"id": "et8tejis",
+						"type": "bar",
+						"visible": true,
+						"flag": [],
+						"pos": [
+							0,
+							0
+						],
+						"size": [
+							480,
+							10
+						],
+						"default_style": false,
+						"attribute_type": "freemaster",
+						"custom_attribute": [],
+						"event": {
+							"widget": {}
+						},
+						"mode": "LV_BAR_MODE_NORMAL",
+						"range": [
+							0,
+							49
+						],
+						"bar_start_value": 30,
+						"animtime": 100,
+						"animValue": [
+							{
+								"bar_value": 0,
+								"anim": "LV_ANIM_OFF"
+							}
+						],
+						"style": [
+							{
+								"part": "LV_PART_MAIN",
+								"state": "LV_STATE_DEFAULT",
+								"disable": false,
+								"bg_color": "#2195f6",
+								"bg_grad_color": "#2195f6",
+								"bg_grad_dir": "LV_GRAD_DIR_NONE",
+								"bg_dither_mode": "LV_DITHER_NONE",
+								"bg_main_stop": 0,
+								"bg_grad_stop": 255,
+								"bg_opa": 0,
+								"radius": 0,
+								"shadow_color": "#2195f6",
+								"shadow_opa": 255,
+								"shadow_width": 0,
+								"shadow_spread": 0,
+								"shadow_ofs_x": 0,
+								"shadow_ofs_y": 0,
+								"bg_img_src": "",
+								"bg_img_opa": 255,
+								"bg_img_recolor": "#ffffff",
+								"bg_img_recolor_opa": 0
+							},
+							{
+								"part": "LV_PART_INDICATOR",
+								"state": "LV_STATE_DEFAULT",
+								"disable": false,
+								"bg_color": "#ff2100",
+								"bg_grad_color": "#2195f6",
+								"bg_grad_dir": "LV_GRAD_DIR_NONE",
+								"bg_dither_mode": "LV_DITHER_NONE",
+								"bg_main_stop": 0,
+								"bg_grad_stop": 255,
+								"bg_opa": 255,
+								"radius": 0,
+								"bg_img_src": "",
+								"bg_img_opa": 255,
+								"bg_img_recolor": "#ffffff",
+								"bg_img_recolor_opa": 0
+							}
+						]
+					},
+					{
+						"name": "screen_label_1",
+						"id": "8mg55el5",
+						"type": "label",
+						"visible": true,
+						"flag": [],
+						"pos": [
+							30,
+							25
+						],
+						"size": [
+							182,
+							30
+						],
+						"default_style": false,
+						"attribute_type": "",
+						"custom_attribute": [],
+						"text": "Heart Rate:",
+						"long_mode": "LV_LABEL_LONG_WRAP",
+						"style": [
+							{
+								"part": "LV_PART_MAIN",
+								"state": "LV_STATE_DEFAULT",
+								"disable": false,
+								"border_side": [
+									"LV_BORDER_SIDE_FULL"
+								],
+								"border_width": 0,
+								"border_opa": 255,
+								"border_color": "#2195f6",
+								"radius": 0,
+								"text_color": "#ffffff",
+								"text_opa": 255,
+								"font": 28,
+								"text_align": "LV_TEXT_ALIGN_CENTER",
+								"font_family": "montserratMedium",
+								"letter_space": 2,
+								"line_space": 0,
+								"bg_color": "#2195f6",
+								"bg_grad_color": "#2195f6",
+								"bg_opa": 0,
+								"bg_grad_dir": "LV_GRAD_DIR_NONE",
+								"bg_dither_mode": "LV_DITHER_NONE",
+								"bg_main_stop": 0,
+								"bg_grad_stop": 255,
+								"padding_top": 0,
+								"padding_right": 0,
+								"padding_bottom": 0,
+								"padding_left": 0,
+								"bg_img_src": "",
+								"bg_img_opa": 255,
+								"bg_img_recolor": "#ffffff",
+								"bg_img_recolor_opa": 0,
+								"shadow_color": "#2195f6",
+								"shadow_opa": 255,
+								"shadow_width": 0,
+								"shadow_spread": 0,
+								"shadow_ofs_x": 0,
+								"shadow_ofs_y": 0
+							},
+							{
+								"part": "LV_PART_MAIN",
+								"state": "LV_STATE_DISABLED",
+								"disable": true,
+								"border_side": [
+									"LV_BORDER_SIDE_FULL"
+								],
+								"border_width": 0,
+								"border_opa": 255,
+								"border_color": "#2195f6",
+								"radius": 0,
+								"text_color": "#000000",
+								"text_opa": 255,
+								"font": 16,
+								"font_family": "montserratMedium",
+								"text_align": "LV_TEXT_ALIGN_CENTER",
+								"letter_space": 2,
+								"line_space": 0,
+								"bg_color": "#2195f6",
+								"bg_grad_color": "#2195f6",
+								"bg_opa": 0,
+								"bg_grad_dir": "LV_GRAD_DIR_NONE",
+								"bg_dither_mode": "LV_DITHER_NONE",
+								"bg_main_stop": 0,
+								"bg_grad_stop": 255,
+								"padding_top": 0,
+								"padding_right": 0,
+								"padding_bottom": 0,
+								"padding_left": 0,
+								"bg_img_src": "",
+								"bg_img_opa": 255,
+								"bg_img_recolor": "#ffffff",
+								"bg_img_recolor_opa": 0,
+								"shadow_color": "#2195f6",
+								"shadow_opa": 255,
+								"shadow_width": 0,
+								"shadow_spread": 0,
+								"shadow_ofs_x": 0,
+								"shadow_ofs_y": 0
+							}
+						]
+					},
+					{
+						"name": "screen_label_2",
+						"id": "rrmz0kbs",
+						"type": "label",
+						"visible": true,
+						"flag": [],
+						"pos": [
+							226,
+							25
+						],
+						"size": [
+							152,
+							32
+						],
+						"default_style": false,
+						"attribute_type": "",
+						"custom_attribute": [],
+						"text": "60 BPM",
+						"long_mode": "LV_LABEL_LONG_WRAP",
+						"style": [
+							{
+								"part": "LV_PART_MAIN",
+								"state": "LV_STATE_DEFAULT",
+								"disable": false,
+								"border_side": [
+									"LV_BORDER_SIDE_FULL"
+								],
+								"border_width": 0,
+								"border_opa": 255,
+								"border_color": "#2195f6",
+								"radius": 0,
+								"text_color": "#ff2100",
+								"text_opa": 255,
+								"font": 32,
+								"text_align": "LV_TEXT_ALIGN_LEFT",
+								"font_family": "montserratMedium",
+								"letter_space": 2,
+								"line_space": 0,
+								"bg_color": "#2195f6",
+								"bg_grad_color": "#2195f6",
+								"bg_opa": 0,
+								"bg_grad_dir": "LV_GRAD_DIR_NONE",
+								"bg_dither_mode": "LV_DITHER_NONE",
+								"bg_main_stop": 0,
+								"bg_grad_stop": 255,
+								"padding_top": 0,
+								"padding_right": 0,
+								"padding_bottom": 0,
+								"padding_left": 0,
+								"bg_img_src": "",
+								"bg_img_opa": 255,
+								"bg_img_recolor": "#ffffff",
+								"bg_img_recolor_opa": 0,
+								"shadow_color": "#2195f6",
+								"shadow_opa": 255,
+								"shadow_width": 0,
+								"shadow_spread": 0,
+								"shadow_ofs_x": 0,
+								"shadow_ofs_y": 0
+							},
+							{
+								"part": "LV_PART_MAIN",
+								"state": "LV_STATE_DISABLED",
+								"disable": true,
+								"border_side": [
+									"LV_BORDER_SIDE_FULL"
+								],
+								"border_width": 0,
+								"border_opa": 255,
+								"border_color": "#2195f6",
+								"radius": 0,
+								"text_color": "#000000",
+								"text_opa": 255,
+								"font": 16,
+								"font_family": "montserratMedium",
+								"text_align": "LV_TEXT_ALIGN_CENTER",
+								"letter_space": 2,
+								"line_space": 0,
+								"bg_color": "#2195f6",
+								"bg_grad_color": "#2195f6",
+								"bg_opa": 0,
+								"bg_grad_dir": "LV_GRAD_DIR_NONE",
+								"bg_dither_mode": "LV_DITHER_NONE",
+								"bg_main_stop": 0,
+								"bg_grad_stop": 255,
+								"padding_top": 0,
+								"padding_right": 0,
+								"padding_bottom": 0,
+								"padding_left": 0,
+								"bg_img_src": "",
+								"bg_img_opa": 255,
+								"bg_img_recolor": "#ffffff",
+								"bg_img_recolor_opa": 0,
+								"shadow_color": "#2195f6",
+								"shadow_opa": 255,
+								"shadow_width": 0,
+								"shadow_spread": 0,
+								"shadow_ofs_x": 0,
+								"shadow_ofs_y": 0
+							}
+						]
+					},
+					{
+						"name": "screen_img_1",
+						"id": "jib7ssfl",
+						"type": "img",
+						"visible": true,
+						"flag": [],
+						"pos": [
+							418,
+							22
+						],
+						"size": [
+							40,
+							37
+						],
+						"default_style": false,
+						"img_path": "C:\\Users\\Matt\\Documents\\NXP\\MCUXpressoIDE\\workspace_11.9.1_2170\\frdmmcxn947_ppg_demo\\import\\image\\heart_scarlet.png",
+						"color_format": "true-color-alpha",
+						"rotate": 0,
+						"pivot": "20,16",
+						"use_fs": false,
+						"fs_type": "flash",
+						"img_flash_path": "F:/heart_scarlet.png",
+						"img_sd_path": "S:/heart_scarlet.png",
+						"style": [
+							{
+								"part": "LV_PART_MAIN",
+								"state": "LV_STATE_DEFAULT",
+								"disable": false,
+								"image_recolor": "#ffffff",
+								"image_recolor_opa": 0,
+								"image_opa": 255,
+								"radius": 0
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}
