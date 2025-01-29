@@ -19,6 +19,7 @@ typedef struct {
 typedef struct {
 	float data_prev;
 	float data_pprev;
+	uint8_t bpm;
 	uint16_t cnt;
 	uint32_t rate;
 	uint16_t rates[10];

@@ -282,16 +282,6 @@ static void AppTask(void *param)
     }
 }
 
-static void GuiTask(void *param)
-{
-	// init gui
-
-	// state delay
-
-	// state display
-
-	// state freeze
-}
 
 static void PpgTask(void *param)
 {
@@ -326,7 +316,7 @@ static void PpgTask(void *param)
     for (j = 0; j < MAX86916_NUM_CHANNELS; j++)
     {
     	scale_init(&ppgScaler[j], 1 / 40.0);
-    	hb_detect_init(&hb_det[j], 4, 50);
+    	hb_detect_init(&hb_det[j], 6, 50);
     }
 
     /* Initialize PowerQuad */
@@ -439,7 +429,7 @@ static void PpgTask(void *param)
     				for (j = 0; j < MAX86916_NUM_CHANNELS; j++)
     				{
     					ppgFilteredSamples[j][ppgIdx - i] = ppgRawSamples[j][ppgIdx - i - FIR_FILTER_GRPDELAY] - ppgFilteredSamples[j][ppgIdx - i];
-    					bpm[j] = hb_detect_step(&hb_det[j], ppgFilteredSamples[j][ppgIdx - i], 20);
+    					bpm[j] = hb_detect_step(&hb_det[j], ppgFilteredSamples[j][ppgIdx - i], 25);
     				}
 
     				/* Display every other sample to keep the GUI responsive */

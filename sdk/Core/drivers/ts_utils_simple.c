@@ -19,17 +19,25 @@ float scale_dynamic(dynamic_scaler_t *s, float data)
 {
 	float scaled;
 
+	// scale the input data
 	scaled = data * s->scale;
+
+	// find the peak magnitude in the time series
 	if (fabs(scaled) > s->peak)
 	{
 		s->peak = fabs(scaled);
 	}
 
+	// if data has yet to stabilize,
+	// wait for it to do so
 	if (s->peak > 255)
 	{
 		s->peak = 0;
 		s->cnt = 0;
+		scaled = 0;
 	}
+	// if the current peak is larger than desired,
+	// adjust scaler and re-scale the data
 	else if (s->peak > 127)
 	{
 		s->scale /= 1.3;
@@ -38,11 +46,14 @@ float scale_dynamic(dynamic_scaler_t *s, float data)
 
 		scaled = data * s->scale;
 	}
+	// if the current peak is smaller than desired,
+	// adjust scaler and re-scale the data
 	else if (s->cnt > 28)
 	{
 		if (s->peak < 69)
 		{
 			s->scale *= ((s->peak * -0.3) + 20.8);
+			scaled = data * s->scale;
 		}
 
 		s->peak = 0;
@@ -62,6 +73,7 @@ void hb_detect_init(hb_detector_t *hb, uint8_t rolling_beats, uint16_t sps)
 
 	hb->data_prev = 0;
 	hb->data_pprev = 0;
+	hb->bpm = 0;
 	hb->cnt = 0;
 	hb->rate = 0;
 
@@ -105,23 +117,25 @@ uint8_t hb_detect_step(hb_detector_t *hb, float data, int16_t width)
 			}
 
 			hb->cnt = 0;
+
+			/* re-calculate HR */
+			bpm = ((float)(hb->sps) / ((float)(hb->rate) / (float)(hb->beats)));
+			bpm *= 60.0;
+			if (bpm > 199)
+			{
+				bpm = 199;
+			}
+			else if (bpm < 30)
+			{
+				bpm = 30;
+			}
+			hb->bpm = (int)(bpm + 0.5);
 		}
 	}
 
 	hb->data_pprev = hb->data_prev;
 	hb->data_prev = data;
 
-	/* calculate HR */
-	bpm = ((float)(hb->sps) / ((float)(hb->rate) / (float)(hb->beats)));
-	bpm *= 60.0;
-	if (bpm > 199)
-	{
-		bpm = 199;
-	}
-	else if (bpm < 30)
-	{
-		bpm = 30;
-	}
-	return (int)(bpm + 0.5);
+	return hb->bpm;
 }
 
